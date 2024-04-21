@@ -302,7 +302,7 @@ Resources:
           </html>
           EOF
 
-  DynamoDB:
+  DynamoDBTable:
     Type: 'AWS::DynamoDB::Table'
     Properties:
       Tablename: 'MyApplicationData' 
